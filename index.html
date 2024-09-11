@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+            <title>A Vote for the Electoral College</title>
+
+        <!--put your external stylesheet links here-->
+        <link rel="stylesheet" href="css/style.css">
+        <!--[if IE<9]>
+            <link rel="stylesheet" href="css/style.ie.css">
+        <![endif]-->
+
+         <!--you can also place internal styles here;
+             place these within <style> tags-->
+                
+            
+        
+    </head>
+    <body>
+        <!--put your initial page content here-->
+        <h1 class="title" align="center">A Vote for the Electoral College</h1>
+
+        <div class="container">
+            <div class="map-container">
+                <!--Map-->
+            </div>
+            <div class="chart-container">
+                <!--Chart-->
+            </div>
+        </div>
+
+        <div class="text">
+            <div class="first"><p1>The original goal of this project was to compare the 2020 Election results to the
+                rematch that was currently underway. That all chagned on July 21, 2024 when President
+                Biden dropped his bid for reelection.
+            </p1></div>
+            <div class="second"><p2>With history taking no prisoners, the story the author wanted to tell with the data no longer
+                had context.
+            </p2></div>
+
+            <div class="third"><p3>Upon further review of the data, a new story emerged when put on a map and chart side-by-side.</p3>
+                </div>
+
+            <div class="fourth"><p4>The election data shown here does a nice job of illustrating exactly why the Electoral College was put into place
+                by the framers, and why every vote still counts.
+            </p4></div>
+            <div class="fifth"><p5> The user can hover their mouse over the state outline or the bar graph to show detailed data about the state and what
+                variable the data came from. States will highlight yellow and the corresponding bar will also highlight yellow to coordinate
+                the information to the user. Users can choose witch variables to view in the top right in a selection box. The variables are Popular Votes for Biden,
+                Popular Votes for Trump, Popular Votes for All Other Candidates, Total Votes Cast, and Population over 18 Years Old. This last variable was included to help
+                illustrate how many people chose not to participate in the election, and how much of a difference that could have made had they cast a vote.
+            </p5></div>
+            <div class="sixth"><p6>Users can see that the majority of the population of the United States resides in only a few states, (California, Texas, Florida, and New York).
+                If the Presidential Election was a popular vote only, those four states, (assuming voter turnout stayed roughly the same) would effectively control 
+                who became the President. The framers did a nice job making sure that the smaller or less populated states had an equal amount of say in it.
+            </p6></div>
+            <div class="seventh"><p7>In terms of every vote counting, one only has to look at the comparison of Total Votes Cast to Population Over 18 Years Old. Using California as an example,
+                17.5 million votes were cast in total. There are 30.5 million total eligible voters in the state. 13 million votes went uncast, which is a right of the voter to do,
+                but would have swung that state to whomever they voted for. The same goes for Texas with 11.3 million votes cast and 22.9 million eligible voters. It is worth it to get 
+                out and vote!
+            </p7></div>
+        </div>
+
+        <!--you can also use this space for internal scripts;
+        place these within <script> tags-->
+
+        <!--put your external script links here-->
+        <script src="lib/d3.v7.js"></script>
+        <script src="lib/topojson.js"></script>
+        <script src="lib/d3-geo-projection.js"></script>
+        <script src="lib/simple-statistics.min.js"></script>
+        <!--main script-->
+        <script type="text/javascript" src="js/elections.js"></script>
+        
+           
+        </div>
+    </body>
+</html>
